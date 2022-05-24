@@ -1,0 +1,69 @@
+$LightCyan: hsl(193, 38%, 86%);
+$NeonGreen: hsl(150, 100%, 66%);
+$GrayishBlue: hsl(217, 19%, 38%);
+$DarkGrayishBlue: hsl(217, 19%, 24%);
+$DarkBlue: hsl(218, 23%, 16%);
+
+.container{
+  background-color: $DarkBlue;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.container-a{
+  background-color: $DarkGrayishBlue;
+  width: 384px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  font-family: 'Manrope', sans-serif;
+}
+
+.header-tag{
+  color: $NeonGreen;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 17px;
+  margin-top: 40px;
+}
+.display{
+  display: none;
+}
+.p-tag{
+  color: $LightCyan;
+  font-weight: 800;
+  text-align: center;
+  font-size: 20px;
+}
+
+p span{
+  display: block;
+}
+
+.img-co{
+  z-index: 1;
+  margin-top: 14px;
+}
+
+.divider-img{
+  width: 336px;
+}
+
+.dice-con{
+  background: $NeonGreen;
+  width: 41px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: visible;
+  margin-top: 269px;
+  position: absolute;
+  cursor: pointer;
+}
