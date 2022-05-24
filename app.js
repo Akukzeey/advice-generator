@@ -12,7 +12,7 @@ function printAdvice(){
         let ad=advice
         let num=id
         paragraph.textContent=ad
-        num.textContent=num
+        number.textContent=num
     }).catch(err=>{
         console.log('an error thrown',err)
     })
